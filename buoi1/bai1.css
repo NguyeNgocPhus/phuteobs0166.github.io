@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.check1{
+    text-align: center;
+    background-color: coral;
+    padding: 10px;
+ 
+}
+.check2{
+    text-align: center;
+    background-color: darksalmon;
+    padding: 10px;
+   
+}
+.check3{
+    background-color: darkseagreen;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+.check4{
+    background-color: deeppink;
+    margin-top:20px;
+    
+   
+}
+.check4 p{
+    font-size: 30px;
+    color: indigo;
+}
+.Hit{
+    text-align: center;
+    margin-top: 30px;
+    padding: 10px;
+    margin-bottom: 40px;
+}
+h2{
+    display: inline-block;
+    color: red;
+}
+img{
+    position: relative;
+    top:4px;
+    width: 23px;
+}
