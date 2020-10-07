@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding :0;
+    box-sizing: border-box;
+}
+.head{
+    background-color:  forestgreen;
+    width: 100%px;
+    height: 200px;
+}
+.avatar{
+    background-color: white;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    position: relative;
+    top: 64px;
+    left: 112px;
+}
+.head h2{
+    display: inline-block;
+    position: relative;
+    left: 229px;
+    color: white;
+}
+.head p{
+    position: relative;
+    left: 285px;
+    color: white;
+}
+.imformation{
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.body{
+    width: 1190px;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.education{
+
+    width: 70%;
+}
+.menu{
+
+    width: 24%;
+    display: flex;
+    flex-direction: column;
+}
+.h{
+    padding: 3px;
+    border:1px solid  forestgreen;
+    color: white;
+    background-color:  forestgreen;
+    display:block ;
+}
+.box{
+    width: 252px;
+    height: 200px ;
+    border: 1px solid black;
+    margin-top: 10px;
+}
+.sp{
+    background-color: darkgrey;
+    width: 250px;
+    height: 149px;
+}
+.thongtin{
+    height: 49px;
+    text-align: center;
+    background-color:  forestgreen;
+}
+.cover{
+    display: flex;
+    justify-content: space-between;
+
+}
+.box1{
+    display: flex;
+    flex-direction: column;
+}
+.blog{
+    padding: 3px;
+    color: white;
+    background-color: forestgreen;
+}
+.text{
+    height: 60px;
+    border: 1px solid  forestgreen;
+    margin-top: 9px;
+}
+.hinhtron{
+    height: 40px;
+    width: 40px;
+    background-color: forestgreen;
+    border-radius: 50%;
+    float: left;
+    position: relative;
+    top:9px;
+    left: 5px;
+}
+.text p{
+    position: relative;
+    top: 10px;
+    left: 20px;
+}
+.hit{
+    margin-top: 20px;
+    width: 100%;
+    height: 100px;
+    color: honeydew;
+    background-color: forestgreen;
+    text-align: center;
+}
