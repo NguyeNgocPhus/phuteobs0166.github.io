@@ -1,0 +1,151 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 90%;
+    margin: auto;
+}
+.menu{
+    margin-top:80px ;
+    display: flex;
+}
+.menu .img{
+    width: 5%;
+}
+
+.ok3{
+    margin-left: 10px;
+    display: flex;
+    width: 50%;
+    height: 100%;
+}
+.ok2{
+    display: flex;
+    width: 40%;
+    justify-content: flex-end;
+    height: 100%;
+}
+.ok1{
+    width: 25%;
+    padding: 6px 16px;
+
+}
+.ok4{
+    padding: 6px 16px;
+}
+.body{
+    margin-top: 50px ;
+    display: flex;
+}
+.body1{
+    width: 50%;
+    margin-right: 10px;
+}
+.body2{
+    width: 49%;
+}
+.body3{
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+.body4{
+    width: 40%;
+    text-align: center;
+    padding: 8px 18px;
+    border: 1px solid red;
+    border-radius: 10px;
+}
+.test{
+    width: 50%;
+    text-align: center;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+h1{
+    margin-bottom: 20px;
+}
+p{
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+.test1{
+    
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
+.test2{
+    
+    display: flex;
+    justify-content: space-between;
+}
+.test3{
+    padding: 6px 16px;
+    border: 1px solid black;
+    border-radius: 15px;
+}
+.ans1{
+    width: 90%;
+    margin: auto;
+    display: flex;
+}
+.ans{
+    padding: 20px;
+    padding-top: 50px;
+}
+.ans2{
+    width: 50%;
+}
+.ans3{
+    width: 50%;
+}
+.ans5{
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+}
+.ans4{
+    padding: 8px 16px;
+    border: 1px solid black;
+    border-radius: 15px ;
+    background-color: darksalmon;
+}
+.ans2 p{
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+h2{
+    font-size: 50px;
+}
+.fooder{
+    width: 100%;
+    margin-top: 150px;
+}
+.fooder1{
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+
+    margin: auto;
+}
+.fooder2{
+    width: 30%;
+    border: 1px solid black;
+    border-radius: 15px;
+    text-align: center;
+}
+.het{
+    margin-top: 100px;
+    background-color: blue;
+    height: 160px;
+}
+.het p{
+    position: relative;
+    top:50%;
+
+    left: 10%;
+}
