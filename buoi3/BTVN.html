@@ -4,84 +4,49 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="./BTVN.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
 </head>
+<style>
+
+</style>
 <body>
-    <div class="header">
-        <div class="header1">
-            <h3>AHIHI<span>.COM</span></h3>
-            <p>THE WORLD'S GREAT WEBSITE FOR YOU</p>
-        </div>
-    </div>
-   
+    <p id="demo"></p>
+    <script>
+        // var a=[1,2,1,4,5,1];
+        // var b={};
+        // for(var i of a){
+        //     if(!b[i]){
+        //         b[i]=0;
+        //     }
+        //     b[i]++;
+        // }
+        // var lol=[];
+        // for(var i in b){
+        //     lol.push([i,b[i]]);
+        // }
+        // document.write(lol+'</br>');
+        // lol.sort(function(a,b){return a[1]-b[1]});
+        // document.write(lol[lol.length-1][0]);
+
+        var maxSpeed = {
+            car: 300, 
+            bike: 60, 
+            motorbike: 200, 
+            airplane: 1000,
+            helicopter: 400, 
+            rocket: 8 * 60 * 60
+        };
+        var sortable = [];
+        for (var vehicle in maxSpeed) {
+            sortable.push([vehicle,maxSpeed[vehicle]]);
+        }
+        document.write(sortable+'</br>');
+        sortable.sort(function(a, b) {
+            return a[1] - b[1];
+        });
+        document.write(sortable[sortable.length-1]);
         
-    <div class="nav">
-        <div class="menu">HOME</div>
-        <div class="menu">ABOUT</div>
-        <div class="menu">CONTACT</div>
-        <div class="menu">PROFILE</div>
-        <div class="menu">COURSE
-            <div class="nav1">
-                <div class="menu1">JAVA</div>
-                <div class="menu1">HTML</div>
-                <div class="menu1">CSS
-                    <div class="nav2">
-                        <div class="menu2">BASIC</div>
-                        <div class="menu2">ADVANCE</div>
-                    </div>
-                </div>
-                <div class="menu1">JS</div>
-            </div>
-        </div>
-    </div>
-    <div class="anh">
         
-        <img class="anh1" src="./gatto_87be3a1b.gif" alt="#">
-        <img class="anh2" src="./modern.png" alt="#">
-    </div>
-    <div class="contener">
-        <h1>AHIHI.COM</h1>
-        <p>Ở đây chúng tôi có thể bán mọi thứ với giá ưu đãi chỉ <br>từ 1 đến 10k. Còn chần chừ gì nữa mà không mua ngay</p>
-        <a href="#">SEE MORE</a>
-    </div>
-    <div class="body">
-        <div class="lesder1">
-            <div class="cc">
-                <img src="./khanh_omazawoa.jpg">
-                <p class="sale">SALE 90%</p>
-            </div>
-            <div class="gioi thieu">
-                <div class="ll">
-                    <h3><b>KHÁNH</b></h3>
-                    <p>Giới thiệu: Đẹp trai học giỏi best nodejs, cái gì cũng biết. Chưa có người yêu.</p>
-                    <br>
-                    <p>GIÁ: 1.000đ</p>
-                </div>
-               
-            </div>
-        </div>
-        <div class="lesder2">
-           
-            <div class="gioi thieu">
-                <div class="ll">
-                    <h3><b>NAM</b></h3>
-                    <p>Giới thiệu: Đẹp trai học giỏi best reactjs, cái gì cũng biết. Chưa có người yêu.</p>
-                    <br>
-                    <p>GIÁ: 10.000đ</p>
-                </div>
-                
-            </div>
-            <div class="cc1">
-                
-                <img src="./nammm.jpg">
-                <p class="sale1">SALE 90%</p>
-             </div>
-        </div>
-        
-    </div>
-    <div class="foother">HIT WITH LUV</div>
-    
-    
-</div>
+    </script>
 </body>
 </html>
