@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<script>
+    function check(x,y){
+        if(!x[y]){
+            x[y]=1;
+        }
+        else{
+            x[y]++;
+        }
+        return x;
+    }
+    const arr = [1, 2, 3, 4, 3, 1, 2, 5, 6, 7, 5, 6, 8, 7];
+    const countElement = arr.reduce((x,y)=>check(x,y),{});
+
+    console.log(countElement);
+</script>
+
+<body>
+
+</body>
+
+</html>
